@@ -8,7 +8,7 @@ Refer to [DSPH](https://github.com/QinLab-WFU/DSPH)
 
 ### Start
 
-> python main_cls.py --is-train --dataset coco --caption-file caption.mat --index-file index.mat --label-file label.mat --lr 0.001 --clip-path ./ViT-B-32.pt --batch-size 256 
+> python main_cls.py --is-train --dataset coco --caption-file caption.mat --index-file index.mat --label-file label.mat --lr 0.001 --clip-path ./ViT-B-32.pt --batch-size 256  
 > python main.py --is-train --dataset coco --caption-file caption.mat --index-file index.mat --label-file label.mat --lr 0.001 --output-dim 64 --save-dir ./result/coco/64 --clip-path ./ViT-B-32.pt --batch-size 256
 
 ## Citation
